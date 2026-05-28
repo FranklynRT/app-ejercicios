@@ -5,25 +5,37 @@
 
 import { Platform } from 'react-native';
 
-const tintColorLight = '#0a7ea4';
-const tintColorDark = '#fff';
+const tintColorLight = '#FF5E3A'; // Naranja deportivo vibrante
+const tintColorDark = '#FF6B4A';
 
 export const Colors = {
   light: {
-    text: '#11181C',
-    background: '#fff',
+    text: '#1C1C1E',
+    background: '#FFFFFF',
     tint: tintColorLight,
-    icon: '#687076',
-    tabIconDefault: '#687076',
+    icon: '#8E8E93',
+    tabIconDefault: '#8E8E93',
     tabIconSelected: tintColorLight,
+    primary: '#FF5E3A',
+    secondary: '#5856D6',
+    success: '#34C759',
+    card: '#F2F2F7',
+    border: '#E5E5EA',
+    accent: '#FF9500',
   },
   dark: {
-    text: '#ECEDEE',
-    background: '#151718',
+    text: '#F2F2F7',
+    background: '#121214',
     tint: tintColorDark,
-    icon: '#9BA1A6',
-    tabIconDefault: '#9BA1A6',
+    icon: '#8E8E93',
+    tabIconDefault: '#48484A',
     tabIconSelected: tintColorDark,
+    primary: '#FF6B4A',
+    secondary: '#7D7AFF',
+    success: '#30D158',
+    card: '#1C1C1E',
+    border: '#2C2C2E',
+    accent: '#FF9F0A',
   },
 };
 
