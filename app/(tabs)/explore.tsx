@@ -222,7 +222,7 @@ export default function ExploreScreen() {
       const response = await fetch(url, {
         method: 'GET',
         headers: {
-          'X-Api-Key': '***REMOVED***',
+          'X-Api-Key': process.env.EXPO_PUBLIC_API_NINJAS_KEY ?? '',
           'Content-Type': 'application/json'
         }
       });
